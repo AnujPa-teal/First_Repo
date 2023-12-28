@@ -1,5 +1,5 @@
-# First_Repo
+#Currency_Converter_In_C
 <br>
-Author = Anuj Patil
+Author = AnujPa-teal
 <br>
-Project Name = Currenct Converter In C for 7 currencies
+Project Name = Currency Converter In C for 7 currencies
