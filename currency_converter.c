@@ -1,8 +1,3 @@
-// Author - AnujPa-teal
-//start - 09/23/23
-//end - 12/23/23 
-//Currency Converter C Program 
-
 #include <stdio.h>
 
 #define NUM_CURRENCIES 7
@@ -28,16 +23,16 @@ const char* currencyNames[NUM_CURRENCIES] = {
     "Russian Ruble",
 };
 
-/* The conversion rates are from before September 23, 2023. */
+/* The conversion rates are from before January 20, 2024. */
 
 double conversionRates[NUM_CURRENCIES][NUM_CURRENCIES] = {
-    {1,83,0.94,147.46,7.31,1.37,96.10},   // Dollar
-    {0.013,1,0.011,1.77,0.088,0.016,1.16},   // Rupees
-    {1.07,88,1,157.36,7.80, 1.46,102.52},  //Euro
-    {0.0068,0.56,0.0064,1, 0.0093,0.65},// Japanese Yen
-    {0.14,11.37,0.13,20.18,1,0.19,13.35},  // Chinese Yuan
-    {0.73,60.83,0.69,107.92,5.35,1,70.34},     // Singapore Dollar
-    {0.010,0.87,0.0098, 1.53, 0.076 ,0.0,1},  // Russian Ruble
+    {1,83,0.92,148.18,7.12,1.34,89.43},   // Dollar
+    {0.012,1,0.011,1.78,0.085,0.016,1.06},   // Rupees
+    {1.08,90.53,1,161.32,7.75,1.46,96.00},  //Euro
+    {0.0067,0.56,0.0061,1, 0.0093,0.59},// Japanese Yen
+    {0.14,11.68,0.13,20.18,1,0.18,12.38},  // Chinese Yuan
+    {0.74,62.01,0.68,110.49,5.30,1,65.75},     // Singapore Dollar
+    {0.01,0.94,0.01, 1.68, 0.08 ,0.01,1},  // Russian Ruble
 };
 
 double convertCurrency(double amount, int fromCurrency, int toCurrency) {
